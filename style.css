@@ -1,0 +1,62 @@
+/* El body contiene todo el contenido visible de una pagina web, 
+excepto la secion de encabezado */
+body {
+    /* se utiliza para definir la fuente o tipo de letra */
+    font-family: sans-serif;
+    /* elimina completamnete la margen de un elemento */
+    margin: 0;
+}
+
+/* se utiliza para agrupar elementos y aplicar estilos de forma conjunta */
+.contenedor {
+    /* transforma a un elemento html y a sus hijos directos en un contenedor flexible */
+    display: flex; 
+    /* se utiliza para controlar como se distribuyen  los elementos hijos dentro de un contenedor*/
+    flex-wrap: wrap; 
+    /* controla la distribucion del espacio entre los elementos hijos dentro de un contenedor */
+    justify-content: space-around; 
+    /* define el espacio interno de un elemento */
+    padding: 20px;
+}
+
+/* define estilos de una manera especifica a un elemento en particular */
+.tarjeta {
+    /* se utiliza para definir el ancho del elemento*/
+    width: 300px; 
+    /* define una margen de 10px */
+    margin: 10px; 
+    /* define el borde del elemento, ancho, estilo,color */
+    border: 1px solid #ccc; 
+    /* define el espacio interno de un elemento  */
+    padding: 20px; 
+    /* redondea esquinas de un elemento */
+    border-radius: 5px; 
+    /* agrega sombras a los elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* calse para dar estilo a la tarjeta */
+.tarjeta img {
+    /* se utiliza para definir el ancho del elemento */
+    width: 100%; 
+    /* alto del elemento automatico*/
+    height: auto; 
+    /* define como se muestra un elemento en la pagina*/
+    display: block; 
+    /* redondea las esquinas */
+    border-radius: 5px 5px 0 0; 
+}
+
+/* dar estilo al h3 */
+.tarjeta h3 {
+    /* define margen */
+    margin-top: 10px; 
+}
+
+/* agrega estilo al texto */
+.tarjeta p {
+    /* tamaño de la fuente */
+    font-size: 0.9em; 
+    /*espacio vertical entre lineas de texto dentro de un elemento*/
+    line-height: 1.5; 
+}
